@@ -1,0 +1,104 @@
+// Default
+.bt-white-top {
+    border-top: 1px solid rgba(250, 250, 250, 0.4);
+}
+//
+.footer {
+
+    .subscribe {
+
+        background: url(../images/header-background.png) 100% no-repeat;
+        background-size: cover;
+
+        &-text {
+            font-size: 2.4rem;
+            color: $colorWhite;
+            padding-top: 60px;
+            padding-bottom: 45px;
+            text-align: center;
+        }
+
+        &-form {
+            max-width: 492px;
+            margin: 0 auto;
+            padding-bottom: 55px;
+        }
+
+        &-field {
+            background-color: #5b5553;
+            border-radius: 27px;
+            border: 1px solid #696565;
+        }
+
+        &-icon {
+            padding-left: 30px;
+            color: $colorWhite;
+            font-size: 20px;
+        }
+
+        &-form-control {
+            width: 100%;
+            padding: 22px 15px;
+            border-radius: 27px;
+            /* border: 1px solid #696565; */
+            font-size: 1.8rem;
+            background-color: #5b5553;
+            outline: none;
+            border: 0;
+        }
+
+        .subscribe-form-control::-webkit-input-placeholder {
+            color: $colorWhite;
+        }
+    }
+
+    .list {
+
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px 0 60px 0;
+
+        &-ipsum {
+            color: $colorWhite;
+
+            &-text {
+                font-size: 1.6rem;
+                text-decoration: underline;
+                padding-bottom: 7px;
+            }
+
+            &-schedule {
+                font-size: 1.4rem;
+                color: #c0bebc;
+                padding-top: 13px;
+            }
+        }
+
+        &-follow {
+
+            &-messenger {
+                color: $colorWhite;
+                padding-top: 25px;
+
+                .messenger-icon {
+                        color: $colorWhite;
+                        font-size: 3rem;
+                }
+
+                .messenger-link {
+                    padding-right: 20px;
+                }
+            }
+            
+            .follow-text {
+                color: $colorWhite;
+                font-size: 1.4rem;
+                padding-top: 65px;
+            }
+        }
+    }
+
+    .list-ipsum + .list-ipsum {
+        padding: 0 225px;
+    }
+}

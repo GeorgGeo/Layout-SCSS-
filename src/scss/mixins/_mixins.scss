@@ -1,0 +1,11 @@
+@mixin flex (
+    $ali: center,
+    $jc: center,
+    $fw: nowrap
+) {
+    display: flex;//по умолчанию
+
+    align-items: $ali;
+    justify-content: $jc;
+    flex-wrap: $fw;
+}

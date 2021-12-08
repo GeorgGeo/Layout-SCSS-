@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font: 400 1rem/1 Lato, 'sans-serif';
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

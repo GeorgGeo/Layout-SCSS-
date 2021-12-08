@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/hover.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Duhoot</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <section class="header-top-nav">
+                    <div class="header-controls d-flex align-items-center" data-aos="fade-down" data-aos-delay="50">
+                        <div class="header-controls__logo">
+                            <a href="#">
+                                <span class="logo"></span>
+                            </a>                        
+                        </div>
+                        <!--  -->
+                        <div class="header-controls__nav">
+                            <nav class="header-menu">
+                                <a href="">Reality</a>
+                                <a href="">Living</a>
+                                <a href="">Education</a>
+                                <a href="">Entertainment</a>
+                                <a href="">Mobility</a>
+                            </nav>
+                        </div>
+                        <!-- /.header-controls__nav -->
+                        <div class="header-controls__search">
+                            <button class="button">
+                                <i class="fas fa-search button__search"></i>
+                            </button>
+                        </div>
+                        <!-- /.header-controls__search -->
+                        <div class="header-controls__login">
+                            <button class="button login--button">
+                                <i class="fas fa-user button__login"></i>
+                                <span class="span__login">Login</span>
+                            </button>
+                        </div>
+                        <!-- /.header-controls__logo -->
+                    </div>
+            </section>
+            <!--  /.header-top-nav-->
+            <section class="selection-search">
+                <div class="inner">
+                    <h3 class="inner-text">What are you looking for?</h3>
+                    <div class="select-item d-flex justify-content-center justify-content-between">
+                        <div class="select-form">
+                            <select name="" id="">
+                                <option value="">Dubai</option>
+                                <option value="">Kharkov</option>
+                                <option value="">Kiev</option>
+                            </select>
+                        </div>
+                        <!-- /.select -->
+                        <div class="select-form">
+                            <select name="" id="">
+                                <option value="">Education</option>
+                                <option value="">Travel</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- /.select-item -->
+                    <div class="select__item">
+                        <button  onclick="myFunction()" class="button button-select d-flex">Keyword, name, date, ...</button>
+                    </div>
+                    <!--  -->
+                    <button type="submit" class="button button__danger hvr-pulse-grow">search</button>
+                </div>
+
+            </section>
+            <!-- /.selection-search -->
+            <section class="header-footer-nav">
+                <div class="header-footer d-flex align-items-center justify-content-center">
+                    <nav class="header-footer-main">
+                        <a href="#">Recommended </a>
+                        <a href="#">Latest</a>
+                        <a href="#">Highlights</a>
+                    </nav>
+                    <!--  -->
+                    <div class="header-footer-form">
+                        <select name="" id="">
+                            <option value="">Dubai</option>
+                            <option value="">Kharkov</option>
+                            <option value="">Kiev</option>
+                        </select>
+                    </div>
+                    <!--  -->
+                    <div class="location">
+                        <button type="submit" class="button button-location button-location__active d-flex align-items-center justify-content-between">Hide map <i class="fas fa-map-marker-alt"></i></button>
+                    </div>
+                    <!--  -->
+                    <div class="filter d-flex">
+                        <h4 class="filter-text">Filter</h4>
+                        <ul class="filter__icon d-flex">
+                            <li class="icon icon-home active">
+                                <span id="home"><i class="fas fa-home"></i></span>
+                            </li>
+                            <li class="icon icon-user">
+                                <span id="user"><i class="far fa-user"></i></span>
+                            </li>
+                            <li class="icon icon-cap">
+                                <span id="cap"><i class="fas fa-graduation-cap"></i></span>
+                            </li>
+                            <li class="icon icon-music active-orange">
+                                <span id="music"><i class="fas fa-music"></i></span>
+                            </li>
+                            <li class="icon icon-bus active-violet">
+                                <span id="bus"><i class="fas fa-bus-alt"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- <i class="fas fa-angle-down"></i> -->
+            <!-- /.header-footer-nav -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /header -->
+    <main class="main">
+        <div class="process-screen">
+            <div class="container2">
+                <div class="main-process">
+                    <div class="main-process__screen d-flex justify-content-center">
+                        <div class="card">
+                            <div class="image effect">
+                                <span class="image-price">$2,900</span>
+                                <a href="" class="process-screen-row1-1 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-green">
+                                <span class="card-information__text">2 bedroom house for rent in Dubai</span>
+                                <span class="card-information__agency">Vision Agency</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="image effect-orange">
+                                <a href="" class="process-screen-row1-2 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-orange">
+                                <span class="card-information__text text-padding">Beach party festival 2014</span>
+                                <span class="card-information__agency">Long beach</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">                           
+                            <div class="image effect-violet">
+                                <button type="submit" class="button btn-violet"><i class="fas fa-search"></i><span class="text">Show more</span></button>
+                                <!--  -->
+                                <span class="comments">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-comments"></i>
+                                </span>
+                                <div class="bg-violet">
+                                    <a href="" class="process-screen-row1-3 d-flex"></a>
+                                </div>
+                            </div>
+                            <div class="card-information bt-violet">
+                                <span class="card-information__text">Aliquam quis pulvinar purus</span>
+                                <span class="card-information__agency">Bus Trans</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="image effect">
+                                <span class="image-price">$2,900</span>
+                                <a href="" class="process-screen-row1-4 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-green">
+                                <span class="card-information__text">4 bedroom house for rent in Dubai</span>
+                                <span class="card-information__agency">Reality Agency</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /main-process__screen -->
+                    <div class="main-process__comments d-flex justify-content-around">
+                        <div class="cards">
+                            <div class="image effect-left">
+                                <div class="image-context">
+                                    <span class="image-text">Vision agency</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="number">(365)</i>
+                                    </span>
+                                </div>
+                                <a href="" class="process-screen-row2-1 d-flex"></a>
+                            </div>
+                            <div class="cards-information  bt-green d-flex">
+                                <div class="cards-information-foto">
+                                    <a href="" class="foto-nik d-flex"></a>
+                                </div>
+                                <div class="cards-information__review d-flex flex-column">
+                                    <span class="stars stars-review">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <mark class="nik-name">Lucy-p</mark>
+                                        <p class="speech">“Aliquam quis pulvinar purus. Etiam cursus</br>ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="" class="read-more"><span>...read more</span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="cards">
+                            <div class="image effect-left-orange d-flex flex-column">
+                                <a href="" class="process-screen-row2-2 d-flex"></a>
+                            </div>
+                            <div class="cards-information bt-orange d-flex">
+                                <div class="cards-information-foto">
+                                    <div class="image-context">
+                                        <span class="image-text">Skybox club</span>
+                                        <span class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="number">(1365)</i>
+                                        </span>
+                                    </div>
+                                    <a href="" class="foto-nik2 d-flex"></a>
+                                </div>
+                                <div class="cards-information__review d-flex flex-column">
+                                    <span class="stars stars-review">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <mark class="nik-name">Peter145</mark>
+                                        <p class="speech">“Aliquam quis pulvinar purus. Etiam cursus</br>ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="" class="read-more"><span>...read more</span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.main-process__comments -->
+                    <div class="main-process__screen d-flex justify-content-center">
+                        <div class="card">
+                            <div class="image effect">
+                                <span class="image-price">$2,900</span>
+                                <a href="" class="process-screen-row1-1 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-green">
+                                <span class="card-information__text">2 bedroom house for rent in Dubai</span>
+                                <span class="card-information__agency">Vision Agency</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="image effect-orange">
+                                <a href="" class="process-screen-row1-2 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-orange">
+                                <span class="card-information__text text-padding">Beach party festival 2014</span>
+                                <span class="card-information__agency">Long beach</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">                           
+                            <div class="image effect-violet">
+                                <div class="bg-violet">
+                                    <a href="" class="process-screen-row1-1 d-flex"></a>
+                                </div>
+                            </div>
+                            <div class="card-information bt-violet">
+                                <span class="card-information__text">Aliquam quis pulvinar purus</span>
+                                <span class="card-information__agency">Bus Trans</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="image effect">
+                                <span class="image-price">$2,900</span>
+                                <a href="" class="process-screen-row1-4 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-green">
+                                <span class="card-information__text">4 bedroom house for rent in Dubai</span>
+                                <span class="card-information__agency">Reality Agency</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /main-process__screen -->
+                    <div class="main-process__comments d-flex justify-content-around">
+                        <div class="cards">
+                            <div class="image effect-left-orange d-flex flex-column">
+                                <a href="" class="process-screen-row2-2 d-flex"></a>
+                            </div>
+                            <div class="cards-information bt-orange d-flex">
+                                <div class="cards-information-foto">
+                                    <div class="image-context">
+                                        <span class="image-text">Skybox club</span>
+                                        <span class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="number">(1365)</i>
+                                        </span>
+                                    </div>
+                                    <a href="" class="foto-nik2 d-flex"></a>
+                                </div>
+                                <div class="cards-information__review d-flex flex-column">
+                                    <span class="stars stars-review">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <mark class="nik-name">Peter145</mark>
+                                        <p class="speech">“Aliquam quis pulvinar purus. Etiam cursus</br>ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="" class="read-more"><span>...read more</span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="image effect">
+                                <span class="image-price">$2,900</span>
+                                <a href="" class="process-screen-row1-1 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-green">
+                                <span class="card-information__text">2 bedroom house for rent in Dubai</span>
+                                <span class="card-information__agency">Vision Agency</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="image effect-orange">
+                                <a href="" class="process-screen-row1-2 d-flex"></a>
+                            </div>
+                            <div class="card-information bt-orange">
+                                <span class="card-information__text text-padding">Beach party festival 2014</span>
+                                <span class="card-information__agency">Long beach</span>
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.main-process__comments -->
+                    <div class="main-process-load bt-grey">
+                        <a href="" class="text-more d-flex justify-content-center align-items-center">
+                            <span>Load more<i class="fas fa-long-arrow-alt-right"></i></span></a>
+                        </a>
+                    </div>
+                    <!-- /.main-process-load -->
+                    <div class="main-process-offer">
+                        <h2 class="text-question">What can DuHoot offer to you?</h2>
+                        <h4 class="text-cursus">Etiam cursus ipsum quis enim faucibus</h4>
+                        <div class="selection line-grey">
+                            <div class="selection-option d-flex justify-content-center">
+                                <i class="fas fa-home selection-option-grey selection-option-green"></i>
+                                <i class="far fa-user selection-option-grey"></i>
+                                <i class="fas fa-graduation-cap selection-option-grey"></i>
+                                <i class="fas fa-music selection-option-grey"></i>
+                                <i class="fas fa-bus-alt selection-option-grey"></i>
+                            </div>
+                        </div>
+                        <h2 class="text-reality">Reality</h2>
+                        <ul class="process-steps d-flex justify-content-center">
+                            <li class="steps-list d-flex">
+                                <span class="list-paint">
+                                    <i class="fas fa-bolt list-lightning-leaf"></i>
+                                </span>
+                                <p class="list-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                            </li>
+                            <li class="steps-list d-flex">
+                                <span class="list-paint">
+                                    <i class="fas fa-leaf list-lightning-leaf"></i>
+                                </span>
+                                <p class="list-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.main-process-offer -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /main -->
+    <footer class="footer">
+        <div class="footer-subscribe">
+            <div class="container">
+                <div class="subscribe">
+                    <h2 class="subscribe-text">Subscribe to our newsletter</h2>
+                    <form action="" class="subscribe-form">
+                        <div class="subscribe-field d-flex align-items-center">
+                            <i class="far fa-envelope subscribe-icon"></i>
+                            <input type="email" name="email" id="email" class="subscribe-form-control" placeholder="your@email.com">
+                            <button type="submit" class="button button__subscribe">Subscribe</button>
+                        </div>
+                    </form>
+                    <!--  -->
+                    <div class="list bt-white-top d-flex">
+                        <ul class="list-ipsum">
+                            <li class="list-ipsum-text">
+                                <a href="">Ipsum quies</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Aliquam quis</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Pulvinar purus</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Etiam cursus</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Ipsum quis</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Enim faucib</a>
+                            </li>
+                        </ul>
+                        <ul class="list-ipsum">
+                            <li class="list-ipsum-text">
+                                <a href="">Ipsum quies</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Aliquam quis</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Pulvinar purus</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Etiam cursus</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Ipsum quis</a>
+                            </li>
+                            <li class="list-ipsum-schedule">
+                                <a href="">Enim faucib</a>
+                            </li>
+                        </ul>
+                        <div class="list-follow">
+                            <span class="list-ipsum list-ipsum-text">
+                                <a href="">Follow us</a>
+                            </span>
+                            <div class="list-follow-messenger d-flex align-items-center">
+                                <a href="#" class="messenger-link"><i class="fab fa-facebook-f messenger-icon"></i></a>
+                                <a href="#" class="messenger-link"><i class="fab fa-twitter messenger-icon"></i></a>
+                                <a href="#" class="messenger-link"><i class="fab fa-google-plus-g messenger-icon"></i></a>
+                                <a href="#" class="messenger-link youtube"></a>
+                            </div>
+                            <p class="follow-text">Copyright &copy All Rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /.footer -->
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.selectric.js"></script>
+    <!-- <script src="jquery.selectric.min.js"></script> -->
+    <script>
+        $(function() {
+            $('select').selectric({
+                arrowButtonMarkup: '<b class="button"></b>',
+            });
+        });
+    </script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

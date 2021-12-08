@@ -1,0 +1,28 @@
+{
+  "name": "maket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp.spritesmith": "^6.12.1",
+    "hover.css": "^2.3.2",
+    "merge-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4",
+    "stylelint": "^14.1.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard-scss": "^3.0.0"
+  }
+}

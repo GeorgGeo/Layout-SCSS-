@@ -1,0 +1,200 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$foto-nik-name: 'foto-nik';
+$foto-nik-x: 920px;
+$foto-nik-y: 503px;
+$foto-nik-offset-x: -920px;
+$foto-nik-offset-y: -503px;
+$foto-nik-width: 55px;
+$foto-nik-height: 55px;
+$foto-nik-total-width: 1280px;
+$foto-nik-total-height: 718px;
+$foto-nik-image: '../images/sprite.png';
+$foto-nik: (920px, 503px, -920px, -503px, 55px, 55px, 1280px, 718px, '../images/sprite.png', 'foto-nik', );
+$foto-nik2-name: 'foto-nik2';
+$foto-nik2-x: 980px;
+$foto-nik2-y: 503px;
+$foto-nik2-offset-x: -980px;
+$foto-nik2-offset-y: -503px;
+$foto-nik2-width: 55px;
+$foto-nik2-height: 55px;
+$foto-nik2-total-width: 1280px;
+$foto-nik2-total-height: 718px;
+$foto-nik2-image: '../images/sprite.png';
+$foto-nik2: (980px, 503px, -980px, -503px, 55px, 55px, 1280px, 718px, '../images/sprite.png', 'foto-nik2', );
+$header-background-name: 'header-background';
+$header-background-x: 0px;
+$header-background-y: 0px;
+$header-background-offset-x: 0px;
+$header-background-offset-y: 0px;
+$header-background-width: 1280px;
+$header-background-height: 448px;
+$header-background-total-width: 1280px;
+$header-background-total-height: 718px;
+$header-background-image: '../images/sprite.png';
+$header-background: (0px, 0px, 0px, 0px, 1280px, 448px, 1280px, 718px, '../images/sprite.png', 'header-background', );
+$logo-name: 'logo';
+$logo-x: 920px;
+$logo-y: 453px;
+$logo-offset-x: -920px;
+$logo-offset-y: -453px;
+$logo-width: 154px;
+$logo-height: 45px;
+$logo-total-width: 1280px;
+$logo-total-height: 718px;
+$logo-image: '../images/sprite.png';
+$logo: (920px, 453px, -920px, -453px, 154px, 45px, 1280px, 718px, '../images/sprite.png', 'logo', );
+$process-screen-row1-1-name: 'process-screen-row1-1';
+$process-screen-row1-1-x: 0px;
+$process-screen-row1-1-y: 578px;
+$process-screen-row1-1-offset-x: 0px;
+$process-screen-row1-1-offset-y: -578px;
+$process-screen-row1-1-width: 210px;
+$process-screen-row1-1-height: 140px;
+$process-screen-row1-1-total-width: 1280px;
+$process-screen-row1-1-total-height: 718px;
+$process-screen-row1-1-image: '../images/sprite.png';
+$process-screen-row1-1: (0px, 578px, 0px, -578px, 210px, 140px, 1280px, 718px, '../images/sprite.png', 'process-screen-row1-1', );
+$process-screen-row1-2-name: 'process-screen-row1-2';
+$process-screen-row1-2-x: 215px;
+$process-screen-row1-2-y: 578px;
+$process-screen-row1-2-offset-x: -215px;
+$process-screen-row1-2-offset-y: -578px;
+$process-screen-row1-2-width: 210px;
+$process-screen-row1-2-height: 140px;
+$process-screen-row1-2-total-width: 1280px;
+$process-screen-row1-2-total-height: 718px;
+$process-screen-row1-2-image: '../images/sprite.png';
+$process-screen-row1-2: (215px, 578px, -215px, -578px, 210px, 140px, 1280px, 718px, '../images/sprite.png', 'process-screen-row1-2', );
+$process-screen-row1-3-name: 'process-screen-row1-3';
+$process-screen-row1-3-x: 430px;
+$process-screen-row1-3-y: 578px;
+$process-screen-row1-3-offset-x: -430px;
+$process-screen-row1-3-offset-y: -578px;
+$process-screen-row1-3-width: 210px;
+$process-screen-row1-3-height: 140px;
+$process-screen-row1-3-total-width: 1280px;
+$process-screen-row1-3-total-height: 718px;
+$process-screen-row1-3-image: '../images/sprite.png';
+$process-screen-row1-3: (430px, 578px, -430px, -578px, 210px, 140px, 1280px, 718px, '../images/sprite.png', 'process-screen-row1-3', );
+$process-screen-row1-4-name: 'process-screen-row1-4';
+$process-screen-row1-4-x: 645px;
+$process-screen-row1-4-y: 578px;
+$process-screen-row1-4-offset-x: -645px;
+$process-screen-row1-4-offset-y: -578px;
+$process-screen-row1-4-width: 210px;
+$process-screen-row1-4-height: 140px;
+$process-screen-row1-4-total-width: 1280px;
+$process-screen-row1-4-total-height: 718px;
+$process-screen-row1-4-image: '../images/sprite.png';
+$process-screen-row1-4: (645px, 578px, -645px, -578px, 210px, 140px, 1280px, 718px, '../images/sprite.png', 'process-screen-row1-4', );
+$process-screen-row2-1-name: 'process-screen-row2-1';
+$process-screen-row2-1-x: 460px;
+$process-screen-row2-1-y: 453px;
+$process-screen-row2-1-offset-x: -460px;
+$process-screen-row2-1-offset-y: -453px;
+$process-screen-row2-1-width: 455px;
+$process-screen-row2-1-height: 119px;
+$process-screen-row2-1-total-width: 1280px;
+$process-screen-row2-1-total-height: 718px;
+$process-screen-row2-1-image: '../images/sprite.png';
+$process-screen-row2-1: (460px, 453px, -460px, -453px, 455px, 119px, 1280px, 718px, '../images/sprite.png', 'process-screen-row2-1', );
+$process-screen-row2-2-name: 'process-screen-row2-2';
+$process-screen-row2-2-x: 0px;
+$process-screen-row2-2-y: 453px;
+$process-screen-row2-2-offset-x: 0px;
+$process-screen-row2-2-offset-y: -453px;
+$process-screen-row2-2-width: 455px;
+$process-screen-row2-2-height: 120px;
+$process-screen-row2-2-total-width: 1280px;
+$process-screen-row2-2-total-height: 718px;
+$process-screen-row2-2-image: '../images/sprite.png';
+$process-screen-row2-2: (0px, 453px, 0px, -453px, 455px, 120px, 1280px, 718px, '../images/sprite.png', 'process-screen-row2-2', );
+$youtube-name: 'youtube';
+$youtube-x: 1079px;
+$youtube-y: 453px;
+$youtube-offset-x: -1079px;
+$youtube-offset-y: -453px;
+$youtube-width: 26px;
+$youtube-height: 31px;
+$youtube-total-width: 1280px;
+$youtube-total-height: 718px;
+$youtube-image: '../images/sprite.png';
+$youtube: (1079px, 453px, -1079px, -453px, 26px, 31px, 1280px, 718px, '../images/sprite.png', 'youtube', );
+$spritesheet-width: 1280px;
+$spritesheet-height: 718px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($foto-nik, $foto-nik2, $header-background, $logo, $process-screen-row1-1, $process-screen-row1-2, $process-screen-row1-3, $process-screen-row1-4, $process-screen-row2-1, $process-screen-row2-2, $youtube, );
+$spritesheet: (1280px, 718px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

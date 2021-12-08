@@ -1,0 +1,7 @@
+{
+    "extends": ["stylelint-config-sass-guidelines", "stylelint-config-standard-scss"],
+    "rules": {
+        "indentation": "tab",
+        "max-nesting-depth": 4
+    }
+  }

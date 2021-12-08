@@ -1,0 +1,118 @@
+.button {
+    font-size: 1rem;
+    font-family: Lato, 'sans-serif';
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    // 
+    transition: all 0.3s linear;
+
+
+    &__search {
+        color: $colorWhite;
+        font-size: 2.5rem;
+    }
+
+    &__login {
+        color: $colorWhite;
+        font-size: 1.4rem;
+        padding-right: 13px;
+    }
+
+    &-select {
+        color: $colorWhite;
+        padding: 18px 25px 18px 30px;
+        font-size: 1.8rem;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            color:rgba(94, 243, 24, 0.5);
+            background: #5c0edb;
+            border-radius: 20px;
+        }
+    }
+
+    &__danger {
+        display: block;
+        max-width: 140px;
+        font-size: 1.8rem;
+        color: $colorWhite;
+        background: $colorRed;
+        border-radius: 30px;
+        text-transform: $upper;
+        padding: 20px 0;
+        margin: auto;
+        margin-top: 28px;
+        // margin-bottom: 38px;
+        opacity: 1;
+        animation: opacity 0.3s ease-in 900ms forwards;
+
+        &:hover {
+            color:rgba(94, 243, 24, 0.5);
+            background: #5c0edb;
+        }
+    }
+
+    &-location {
+        font-size: 1.2rem;
+        color: $colorWhite;
+        border-radius: 18px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        margin: 0 5px;
+        background-color: $colorGreen;
+        height: 40px;
+
+        &:hover {
+            color:rgba(94, 243, 24, 0.5);
+            background: #5c0edb;
+        }
+
+        &__active:active {
+            color: lightcoral;
+        }
+    }
+
+    &__subscribe {
+        max-width: 120px;
+        height: 52px;
+        background-color: $colorRed;
+        border-radius: 24px;
+        margin-right: 4px;
+        text-transform: uppercase;
+        color: $colorWhite;
+        font-size: 14px;
+
+        &:hover {
+            color:rgba(94, 243, 24, 0.5);
+            background: #5c0edb;
+        }
+    }
+}
+
+.btn-violet {
+    position: absolute;
+    max-width: 140px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $colorWhite;
+    background-color: #88499c;
+    border: 3px solid $colorWhite;
+    border-radius: 15px;
+    padding: 10px 18px;
+    transform: translateX(25%);
+    top: 22px;
+    z-index: 99;
+}
+
+.login--button {
+    transition: all 0.3s linear;
+
+    &:hover {
+        color:rgba(94, 243, 24, 0.5);
+        background: #5c0edb;
+    }
+}
