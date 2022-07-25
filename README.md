@@ -3,10 +3,10 @@
 
 ##_В макете реализованы:_
 
-- [x] Gulp
-- [x] Препроцессоры scss
-- [x] npm(Node.js)
+- [x] _Gulp_
+- [x] Препроцессоры _scss_
+- [x] _npm_(Node.js)
 - [x] Annimation CSS
-- [x] Library AOS
+- [x] Library _AOS_
 - [x] jQuery
 - [x] плагин - Select(jQuery.selectric)
